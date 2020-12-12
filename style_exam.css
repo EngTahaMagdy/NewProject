@@ -1,0 +1,609 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+body
+{
+    box-sizing: border-box
+}
+/*Start headre*/
+.navbar
+{
+    background: #1A1A1A !important;
+    height: 50px;
+    
+}
+.navbar .navbar-brand
+{
+  color: #fff !important  
+}
+.navbar .navbar-brand img
+{
+    width: 70px !important;
+    height: 50px;
+    padding: 0 10px 
+}
+.navbar .collapse  li a
+{
+    color: #fff !important ;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-nav
+{
+    margin-right: 70px  !important;
+    padding:10px;
+}
+.navbar-nav .nav-item
+{
+    margin-left:25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-nav .active1
+{
+    background-color:#EC3337;
+    border-radius: 5px ;
+   
+   
+}
+
+.head
+{
+    background-image: url(images/cover.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    margin-top:50px
+}
+.head .op
+{
+    background: rgba(255,0,0,.5);
+    width: 100%;
+    height: 100%;
+    margin: auto
+}
+.head .op h1,.head .op p
+{
+    font-size: 55px;
+    color:#fff;
+    text-align: justify;
+    padding-top: 150px;
+    padding-left: 150px;
+    text-shadow: 0px 5px 10px #af2424;
+}
+.head .op p
+{
+    padding-top: 0;
+    font-size: 25px
+}
+.head button
+{
+    margin-top:30px;
+    margin-left: 150px;
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600
+}
+/*End headre*/
+
+
+/*Start About*/
+.about,.skill,.portfolio
+{
+    padding-top:25px
+}
+.about h1
+{
+    margin-left: 20px;
+    color:#444444;
+    margin-top: 45px
+    
+}
+.about p
+{
+    margin-left: 20px;
+    color:#969696;
+    margin-bottom: 35px
+}
+.about .data
+{
+    text-align: justify
+}
+.about .data h1,.about .data h6 
+{
+    color:#444;
+    font-size: 160%;
+    
+    line-height: 1.9;
+    margin-left:15px;
+    font-weight: bolder
+    
+}
+
+.about .data p
+{
+    font-size: 120%;
+    text-align: justify;
+    line-height: 1.9
+}
+.about .btn
+{
+    border:1px solid  #af2424;
+    margin-left:15px
+}
+
+.about .icons i
+{
+    color:#af2424 !important;
+    
+}
+.about .icons .btn:hover i
+{
+    color:#fff !important;
+    
+}
+/*End About*/
+
+.skill
+{
+    margin-top: 95px
+}
+.skill h1 , .portfolio .data 
+{
+    margin-left: 120px;
+    line-height: 2;
+    color:#444
+}
+.skill p ,.portfolio .data p
+{
+    color:#969696;
+    line-height: 1.8
+}
+.skill .prog
+{
+    margin-top: -12px
+}
+.skill .prog p
+{
+    margin-bottom: 0
+}
+.skill .progress
+{
+    height: 10px
+}
+.skill .progress-bar
+{
+    background:#EC3237 !important;
+    height: 10px
+        
+}
+.skill .btn 
+{
+    margin-left:450px;
+    margin-top:50px;
+    padding:12px;
+    border-radius: 0!important;
+    background:#EC3237 !important;
+    margin-bottom: 70px
+}
+.icn
+{
+    background: #F5F5F5
+}
+.icn .dt 
+{
+    margin-left: 115px;
+    padding-top: 50px;
+    margin-bottom: 50px
+}
+.icn .crd
+{
+    margin-left: 25px;
+    margin-top: 25px;
+   
+}
+.icn .crd i
+{
+    margin-left:5px;
+    width: 40px;
+    height: 40px;
+    background: #e3e3e3;
+    text-align: center;
+    padding-top: 15px
+    
+}
+.icn .card-text
+{
+    margin-top: -15px
+}
+
+.icn .crd i:hover 
+{
+    color: #fff;
+    background: #EC3237
+}
+.icn .crd h4
+{
+    display:inline;
+    margin-left:10px
+}
+.icn .crd h4:hover
+{
+    color:#EC3237
+}
+.icn .card
+{
+    margin-bottom: 25px
+}
+.icn .btn
+{
+   
+    margin-left:550px;
+    margin-top:50px;
+    padding:12px;
+    border-radius: 0!important;
+    background:#EC3237 !important;
+    margin-bottom: 70px;
+    width: 250px
+}
+
+
+
+
+.num 
+{
+    background-image: url(images/project-counter.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.num .card
+{
+    background: transparent;
+    color:#EC3237;
+    margin-top: 45px;
+    text-align: center;
+   border:none;
+    padding: 25px;
+    line-height: 3;
+    margin-bottom: 45px
+}
+.num .card p
+{
+    
+    font-weight: bolder;
+    font-size: 20px
+}
+.num .card .crd i
+{
+    color:#fff
+}
+.num .card span
+{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+  
+    
+}
+.portfolio
+{
+    background: #DBDBDB
+}
+.portfolio .navbar 
+{
+    background: transparent !important;
+    
+}
+.portfolio .navbar-nav 
+{
+    margin: 400px
+}
+.portfolio .navbar-nav li
+{
+    margin-left: -460px;
+    padding: 0
+}
+.portfolio .active .btn
+{
+    background:#EC3237!important;
+    border-radius:none!important;
+    border:none;
+    color:#fff;
+    padding:12px;
+    width: 60px
+}
+.portfolio .collapse
+{
+    width: 500px;
+  
+    
+}
+.portfolio .nav-item .ta
+{
+    background: transparent !important;
+    border:2px solid gray;
+    color:#636363;
+    font-weight: bolder;
+    padding: 10px;
+    width: 100px;
+     border-radius:none!important;
+}
+.portfolio .ta:hover
+{
+    border:3px solid #EC3237 !important;
+    color:#EC3237;
+    
+}
+.portfolio .card
+{
+    margin-top: 55px;
+    position: relative
+}
+.portfolio .card h4
+{
+    color:#444444;
+    text-align: center;
+    
+}
+.portfolio .card  p
+{
+    color:#535353;
+    text-align: center
+}
+.portfolio .card i
+{
+    position: absolute;
+    top:55%;
+    left: 40%;
+    background: #222;
+    color:#fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px
+}
+.portfolio .card i:hover
+{
+    color:#fff;
+    background:#EC3237
+}
+.portfolio .btn
+{
+    margin-left:450px;
+    margin-top:80px;
+    padding:12px;
+    border-radius: 0!important;
+    background:#EC3237 !important;
+    margin-bottom: 90px;
+    width: 170px;
+}
+
+
+
+
+.slide
+{
+    background-image: url(images/client-testimonial.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 700px
+}
+.slider
+{
+    background: rgba(130, 128, 128, 0.8);
+    height: auto;
+    width: 100%;
+    margin:0 0px 15px auto;
+    
+    
+  
+    
+}
+
+.slider .carousel-indicators li
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(boot1/images/one.jpg);
+    background-size: 100% 100%;
+    transition: all 1s ;
+    opacity: 1;
+   
+    
+    
+    
+}
+.slider .carousel-indicators li:hover
+{
+    transform: translateY(5px) scale(1.1,1.1);
+    opacity: .8
+    
+}
+.slider .carousel-item
+{
+   
+  
+    padding:150px;
+   
+}
+.slider .carousel-item img
+{
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+    border:5px solid red
+    
+    
+   
+}
+
+.slider .group .carousel-caption
+{
+    position: absolute;
+    bottom: -100px;
+    color:#fff!important;
+    z-index: 5555 !important;
+    margin-left: 50px;
+   
+    
+    height: 100%;
+    float: left
+    
+    
+    
+}
+
+.slider .card img
+{
+    border-radius: 50%
+}
+
+.slider .carousel .carousel-item .group
+{
+    width: 50%;
+    float: left;
+    
+    padding: 50px
+}
+    
+
+.hire .form input
+{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px
+}
+.hire .form textarea
+{
+    display: block;
+    margin-bottom: 20px
+}
+.hire .data h1,.hire .data p
+{
+    margin-left: 115px
+}
+.hire .dat h1
+{
+    font-size: 130%;
+    line-height: 2
+    
+    
+}
+.hire .dat p
+{
+    font-size: 110%;
+    color:#838383
+}
+.hire .dat .icons i
+{
+    color:rgba(138, 3, 3,.8) !important;
+    
+}
+.hire .icons .btn:hover i
+{
+    color:#fff !important;
+    
+    
+}
+.hire .icons .btn
+{
+    border:1px solid  rgba(138, 3, 3,.8) !important;
+    margin-left:15px
+}
+.hire
+{
+    margin:130px 0
+}
+.btn-up
+{
+    background-color:blue;
+}
+.btn-up .btn
+{
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    display:none;
+}
+/*
+
+
+Tabs
+
+*/
+.portfolio .tabs
+{
+    margin-top:25px !important;
+    background-color:#DBDBDB;
+    padding:25px;
+    box-sizing:border-box;
+    height:800px
+    
+}
+.portfolio .tabs .nav-tabs
+{
+    border:none !important;
+    width:40%;
+    margin:auto
+    
+}
+.portfolio .tabs .nav-tabs a
+{
+  
+    margin-left:25px;
+    border:2px solid #808080 !important;
+    font-size:18px;
+    font-weight:bolder;
+    color:#727272;
+    border-radius:0 !important;
+    padding :10px 15px !important
+    
+
+
+}
+.portfolio .tabs .nav-tabs a.active
+{
+    background-color:#EC3237 !important;
+    border:none !important;
+    color:#fff !important  ;
+}
+.portfolio .tabs .tab-content .card
+{
+    
+    box-shadow: 2px 2px 10px #223  ;
+    border:none !important
+}
+.portfolio .tabs .card
+{
+    position:relative;
+}
+.portfolio .tabs .card .icon
+{
+    background-color:#222;
+    width:25px;
+    
+    border-radius: 50%;
+    position:absolute;
+    top:55%;
+    left:45%;
+    
+}
+.portfolio .tabs .card .icon i
+{
+    color:#fff;
+    padding:2px
+}
+.portfolio .tabs .card .icon:hover 
+{
+    background-color:#EC3237
+}
